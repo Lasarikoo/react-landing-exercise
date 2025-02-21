@@ -1,10 +1,12 @@
 import React from "react";
 import Banner from "./Banner";
+import Cardsland from "./Cardsland";
 
 function Container() {
     return(
-        <div className="container-fluid bg-danger p-2 p-sm-5 py-sm-3">
+        <div className="container-fluid">
             <Banner />
+            <Cardsland />
         </div>
     );
 };
